@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Notes_with_tagging.Identity;
-using SellIntegro.Data;
-using SellIntegro.Services;
+using Notes_with_tagging.Data;
+using Notes_with_tagging.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

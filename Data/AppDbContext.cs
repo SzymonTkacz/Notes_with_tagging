@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SellIntegro.Models;
+using Notes_with_tagging.Models;
 
-namespace SellIntegro.Data
+namespace Notes_with_tagging.Data
 {
     public class AppDbContext : DbContext
     {

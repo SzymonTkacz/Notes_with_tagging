@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SellIntegro.Data;
-using SellIntegro.Models;
+using Notes_with_tagging.Data;
+using Notes_with_tagging.Models;
 using System.Text.RegularExpressions;
 
-namespace SellIntegro.Services
+namespace Notes_with_tagging.Services
 {
     public class InscriptionsService: IInscriptionsService
     {

@@ -1,6 +1,6 @@
-﻿using SellIntegro.Models;
+﻿using Notes_with_tagging.Models;
 
-namespace SellIntegro.Services
+namespace Notes_with_tagging.Services
 {
     public interface IInscriptionsService
     {

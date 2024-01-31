@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SellIntegro.Models
+namespace Notes_with_tagging.Models
 {
     [Table("Inscriptions")]
     public class Inscription

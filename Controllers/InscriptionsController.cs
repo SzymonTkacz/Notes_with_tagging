@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SellIntegro.Models;
-using SellIntegro.Services;
+using Notes_with_tagging.Models;
+using Notes_with_tagging.Services;
 
-namespace SellIntegro.Controllers
+namespace Notes_with_tagging.Controllers
 {
     [Authorize]
     [ApiController]
