@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Notes_with_tagging")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+537211b50ba4a2d264c2faec4c263f331109ac37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22e478e2c7a0366e2436283ab2ee56016ed854a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Notes_with_tagging")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Notes_with_tagging")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
