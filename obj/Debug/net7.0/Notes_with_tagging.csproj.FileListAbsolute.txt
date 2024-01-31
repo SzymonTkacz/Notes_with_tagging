@@ -42,3 +42,11 @@ C:\Projekty_moje\.NET\Notes_with_tagging\obj\Debug\net7.0\refint\Notes_with_tagg
 C:\Projekty_moje\.NET\Notes_with_tagging\obj\Debug\net7.0\Notes_with_tagging.pdb
 C:\Projekty_moje\.NET\Notes_with_tagging\obj\Debug\net7.0\Notes_with_tagging.genruntimeconfig.cache
 C:\Projekty_moje\.NET\Notes_with_tagging\obj\Debug\net7.0\ref\Notes_with_tagging.dll
+C:\Projekty_moje\.NET\Notes_with_tagging\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projekty_moje\.NET\Notes_with_tagging\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projekty_moje\.NET\Notes_with_tagging\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projekty_moje\.NET\Notes_with_tagging\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Projekty_moje\.NET\Notes_with_tagging\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projekty_moje\.NET\Notes_with_tagging\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projekty_moje\.NET\Notes_with_tagging\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projekty_moje\.NET\Notes_with_tagging\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

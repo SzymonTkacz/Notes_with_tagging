@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SellIntegro.Models;
 using SellIntegro.Services;
 
 namespace SellIntegro.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class InscriptionsController : ControllerBase
