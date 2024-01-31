@@ -5,8 +5,8 @@ namespace Notes_with_tagging.Identity
 {
     public class AccessTokenData
     {
-        public string Name { get; set; }
+        public required string Name { get; set; }
 
-        public string Surname { get; set; }
+        public required string Surname { get; set; }
     }
 }

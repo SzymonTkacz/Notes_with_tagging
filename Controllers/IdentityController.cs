@@ -17,7 +17,7 @@ namespace Notes_with_tagging.Controllers
         }
 
         [HttpPost("token"), Consumes("application/x-www-form-urlencoded")]
-        public async Task<IActionResult> GenerateToken([FromForm] AccessTokenData request)
+        public IActionResult GenerateToken([FromForm] AccessTokenData request)
         {
             if (request == null || request.Surname == null || request.Name == null)
             {
