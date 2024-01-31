@@ -1,8 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using Notes_with_tagging.Models;
+using Notes_with_tagging.Identity;
 using SellIntegro.Data;
 using SellIntegro.Services;
 using System.Text;
@@ -15,10 +14,6 @@ var jwtOptions = builder.Configuration
 
 builder.Services.AddSingleton(jwtOptions);
 
-//builder.Services.AddOptions<JwtOptions>()
-//    .Bind(builder.Configuration.GetSection("JwtOptions"))
-//    .ValidateDataAnnotations();
-
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -30,7 +25,7 @@ builder.Services.AddAuthentication(options =>
     {
         ValidateIssuer = true,
         ValidateAudience = true,
-        //ValidateLifetime = true,
+        ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         ValidIssuer = jwtOptions.Issuer,
         ValidAudience = jwtOptions.Audience,

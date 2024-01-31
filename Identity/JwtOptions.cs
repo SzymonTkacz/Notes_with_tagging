@@ -1,4 +1,4 @@
-﻿namespace Notes_with_tagging.Models
+﻿namespace Notes_with_tagging.Identity
 {
     public record class JwtOptions(
     string Issuer,
