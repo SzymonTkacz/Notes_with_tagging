@@ -40,10 +40,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var Configuration = builder.Configuration;
+var configuration = builder.Configuration;
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseNpgsql(Configuration.GetConnectionString("WebApiDatabase"));
+    options.UseNpgsql(configuration.GetConnectionString("WebApiDatabase"));
     options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
 

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Notes_with_tagging.Constants;
 using Notes_with_tagging.Data;
 using Notes_with_tagging.Models;
 using System.Text.RegularExpressions;
@@ -53,12 +54,12 @@ namespace Notes_with_tagging.Services
 
             if (Regex.IsMatch(inscription.Text, MatchPhonePattern)) 
             {
-                tags.Add("PHONE");
+                tags.Add(Tags.Phone);
             }
 
             if (Regex.IsMatch(inscription.Text, MatchEmailPattern))
             {
-                tags.Add("EMAIL");
+                tags.Add(Tags.Email);
             }
 
             if(tags.Any())
